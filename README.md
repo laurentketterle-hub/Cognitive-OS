@@ -300,6 +300,38 @@ verified success, cost, traceability, minimal patch score, repo cleanliness,
 test-modification violations, non-source artifacts, and Amplification
 Efficiency when a valid baseline cost/success pair exists.
 
+## Bounty Research: AGI Architecture Survey (Issue #5 — $3,000)
+
+As part of Cognitive-OS Bounty #5, a comprehensive AGI architecture research packet is available at
+**[`research/ai_generated_agi_architectures/`](research/ai_generated_agi_architectures/)**.
+
+This research surveyed **15 frontier AI systems** across two independent collection waves to understand how today's most capable AI systems envision the path to AGI:
+
+| Wave | Date | Systems | Highlights |
+|------|------|---------|------------|
+| Wave 1 | July 2025 | 5 (DeepSeek v4 Pro, Grok 3 Mini, Llama 3.3 70B, Llama 3.2 1B, Claude Brain) | MCTS consensus, 4-part memory convergence |
+| Wave 2 | July 2026 | 10 (GPT-4o, Claude 3.5 Sonnet, Gemini Pro, Grok-2, DeepSeek-V3, Llama 405B, Mistral Large 2, Qwen 2.5, Perplexity, Claude 3 Opus) | Hybrid architecture universality, 2030-2035 timeline |
+
+**Key findings:**
+- **100% convergence** on hybrid architectures (15/15)
+- **Four-part memory** (working, episodic, semantic, procedural) is the canonical AGI memory design
+- **MCTS is the consensus reasoning algorithm** across both waves
+- **Safety must be architectural** — post-hoc filters are unanimously rejected
+- **Median AGI timeline: ~2033** across all proposals
+- **Claude Brain System** (38 MCP tools, 6-month deployment) is the only production-implemented AGI-adjacent architecture
+
+**Quick access:**
+- [Executive Summary](research/ai_generated_agi_architectures/EXECUTIVE_SUMMARY.md)
+- [Full Synthesis](research/ai_generated_agi_architectures/summary.md)
+- [Structured Comparison (CSV)](research/ai_generated_agi_architectures/comparison.csv)
+- [Raw Proposals (15 systems)](research/ai_generated_agi_architectures/raw_outputs/)
+- [Combined Architecture](research/ai_generated_agi_architectures/synthesis.md)
+
+Validate the research data:
+```bash
+pytest tests/test_agi_architecture_validation.py -v
+```
+
 ## Repository Layout
 
 - `conos_cli.py`: unified product CLI.

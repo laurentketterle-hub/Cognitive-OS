@@ -27,6 +27,7 @@ The goal was to understand how today's most capable AI systems envision the path
 |------|-------------|
 | [`prompts.md`](prompts.md) | The standardised prompts used across all systems, including system-specific adaptations, design rationale, and collection methodology |
 | [`summary.md`](summary.md) | Comprehensive synthesis of common patterns, divergences, and key findings across all 15 proposals |
+| [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) | Stand-alone executive summary for bounty evaluators |
 | [`comparison.csv`](comparison.csv) | Structured comparison across multiple architectural dimensions — two complementary views |
 | [`synthesis.md`](synthesis.md) | Proposed combined architecture synthesizing the best elements from all proposals |
 | [`sources.md`](sources.md) | Model names, providers, access dates, and methodological notes |

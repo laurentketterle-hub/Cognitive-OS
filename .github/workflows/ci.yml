@@ -34,3 +34,6 @@ jobs:
 
       - name: Run public smoke test
         run: pytest -q tests/test_public_repo_smoke.py
+
+      - name: Validate AGI Architecture Research (Bounty #5)
+        run: pytest -q tests/test_agi_architecture_validation.py -v
